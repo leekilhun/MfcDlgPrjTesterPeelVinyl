@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{8efa1160-3e42-4bd0-80eb-021395234fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system">
+      <UniqueIdentifier>{50ffbf65-1230-453b-9d6d-c849a8143e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\_inc">
+      <UniqueIdentifier>{e7882899-f690-46bc-9185-dffec789c222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\ap">
+      <UniqueIdentifier>{522c9f94-a199-4e98-b3e4-1b034f498bcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\control">
+      <UniqueIdentifier>{c1e22330-ca71-44f4-ba4b-8367bf4ea6dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\engine">
+      <UniqueIdentifier>{192a9716-9062-4873-847c-10894263bd03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\interface">
+      <UniqueIdentifier>{202a216e-36f6-485e-b70e-4989bf6552b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hal">
+      <UniqueIdentifier>{e0dd2c57-eb02-409d-8df8-086a0cb1ddbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hal\SerialComm">
+      <UniqueIdentifier>{e47b6c87-225a-43fb-9160-14d8c754441c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hal\motor">
+      <UniqueIdentifier>{7715bdcb-1392-4527-8975-a23a97b324f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hal\_inc">
+      <UniqueIdentifier>{f754de7a-bf26-4f05-9321-c297e64827ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hal\Ethernet">
+      <UniqueIdentifier>{09c07bfd-fa89-43a2-ac7b-cbdd3eac601c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hal\io">
+      <UniqueIdentifier>{772352f6-387b-43a4-a8df-87f7ab556f5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="testerPeelVinylAttach.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="testerPeelVinylAttachDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="system\_inc\system_io.h">
+      <Filter>system\_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\_inc\system_log.h">
+      <Filter>system\_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\_inc\system_obj.h">
+      <Filter>system\_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\_inc\system_util.h">
+      <Filter>system\_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\system.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\system_def.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\_inc\binary.h">
+      <Filter>system\_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\interface\IComm.h">
+      <Filter>system\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="system\interface\Icommon.h">
+      <Filter>system\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="system\_inc\system_event.h">
+      <Filter>system\_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\_inc\system_dat.h">
+      <Filter>system\_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\_inc\def_obj.h">
+      <Filter>system\_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\_inc\def_err.h">
+      <Filter>system\_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\_inc\def_prj.h">
+      <Filter>system\_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\_inc\apMcuRemote.h">
+      <Filter>system\_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\_inc\enMcuRemote.h">
+      <Filter>system\_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="hal\_inc\SerialComm.h">
+      <Filter>hal\_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="hal\_inc\motor_fastech.h">
+      <Filter>hal\_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="hal\_inc\motor_fastech_reg.h">
+      <Filter>hal\_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\interface\IAxis.h">
+      <Filter>system\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="system\interface\IIO.h">
+      <Filter>system\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="system\_inc\system_timer.h">
+      <Filter>system\_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="hal\_inc\comport_serial.h">
+      <Filter>hal\_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="hal\_inc\netSocket.h">
+      <Filter>hal\_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="hal\_inc\io_fastech.h">
+      <Filter>hal\_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="popCfg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="testerPeelVinylAttach.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="testerPeelVinylAttachDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="system\system.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\system_obj.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\system_util.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\system_io.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\system_log.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="hal\SerialComm\SerialComm.cpp">
+      <Filter>hal\SerialComm</Filter>
+    </ClCompile>
+    <ClCompile Include="system\system_dat.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\ap\apMcuRemote.cpp">
+      <Filter>system\ap</Filter>
+    </ClCompile>
+    <ClCompile Include="system\engine\enMcuRemote.cpp">
+      <Filter>system\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="hal\motor\motor_fastech.cpp">
+      <Filter>hal\motor</Filter>
+    </ClCompile>
+    <ClCompile Include="system\system_timer.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="hal\SerialComm\comport_serial.cpp">
+      <Filter>hal\SerialComm</Filter>
+    </ClCompile>
+    <ClCompile Include="hal\Ethernet\netSocket.cpp">
+      <Filter>hal\Ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="hal\IO\io_fastech.cpp">
+      <Filter>hal\io</Filter>
+    </ClCompile>
+    <ClCompile Include="popCfg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="testerPeelVinylAttach.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\testerPeelVinylAttach.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\testerPeelVinylAttach.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
